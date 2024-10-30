@@ -1,0 +1,21 @@
+print ("Sistema para calcualr el promedio de un alumno")
+nombre = input("Para comenzar, ¿ cuál es tu nombre?:")
+mate = int(input(nombre + "¿Cuál es tu calificación en matematicas:"))
+quimica = int(input(nombre + "¿Cuál es tu calificación en quimica:"))
+espanol = int(input(nombre + "¿Cuál es tu calificación en espanol:"))
+historia = int(input(nombre + "¿Cuál es tu calificación en historia:"))
+compu = int(input(nombre + "¿Cuál es tu calificación en computación:"))
+tutoria = int(input(nombre + "¿Cuál es tu calificación en yo y el TEC:"))
+ingles = int(input(nombre + "¿Cuál es tu calificación en inglés:"))
+promedio = (mate + quimica + espanol + historia + compu + tutoria + ingles ) / 7
+if promedio >= 7:
+    print ("Debes mejorar " + nombre +" aprobaste con un promedio de : ", promedio)
+if promedio >= 8:
+    print ("Muy bien, pero puede mejorar " + nombre +" aprobaste con un promedio de : ", promedio)
+if promedio >= 9:
+    print ("Súper bien, sigue así " + nombre +" aprobaste con un promedio de : ", promedio)
+if promedio >= 9.5:
+    print ("Excelente, eres muy inteligente " + nombre +" aprobaste con un promedio de : ", promedio)
+    print ("FIn.")
+else:
+    print("Te fue muy mal, reprobaste.")
