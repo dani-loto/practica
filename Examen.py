@@ -8,7 +8,7 @@ refresco = int(input(nombre + "¿Cuánto cuesta este refrsco de un litro?:"))
 compra = (papas + huevo + jamon + galletas + refresco)
 
 pago = int(input ("es hora de pagar, el cajero pregunta con qué billete vas a pagar"))
-regreso = (pago - compra)
+cambio = (pago - compra)
 billete = int(input(nombre + "mi billegte sería de:"))
 if compra >= billete:
     print ("no te alcanza " + nombre +" intenta con otro billete : ")
