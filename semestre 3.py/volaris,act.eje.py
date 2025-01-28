@@ -45,6 +45,12 @@ while ejecutar:
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
                     ejecutar = False
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -74,6 +80,12 @@ while ejecutar:
 
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -110,6 +122,12 @@ while ejecutar:
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
                     ejecutar = False
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -139,6 +157,12 @@ while ejecutar:
 
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -175,6 +199,12 @@ while ejecutar:
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
                     ejecutar = False
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -204,6 +234,12 @@ while ejecutar:
 
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -240,6 +276,12 @@ while ejecutar:
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
                     ejecutar = False
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -269,6 +311,12 @@ while ejecutar:
 
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -305,6 +353,12 @@ while ejecutar:
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
                     ejecutar = False
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
@@ -334,7 +388,15 @@ while ejecutar:
 
                 elif maletas == "No":
                     print ("Ok, recuerda que aún tienes tu maleta de mano")
+                    volver = int(input("¿Deseas volver al menú principal? "))
+                    if volver == "Sí":
+                        ejecutar = True
+                    elif volver == "No":
+                        print ("Entonces tu total es de ", total2 )
+                        ejecutar = False
 
             elif inventario > 10:
                 print ("Lo sentimos, no te podemos vender esa cantidad de boletos")
                 ejecutar = False
+
+                

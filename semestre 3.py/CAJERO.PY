@@ -1,5 +1,5 @@
 #Cajero
-print ("Bienvenido a este tu cajero de confianza")
+print ("Bienvenido a tu calculadora de IMC de confianza")
 nombre = input ("¿Cuál es tu nombre?")
 
 print ("*** selecciona una opción ***")
